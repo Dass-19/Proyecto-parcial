@@ -4,17 +4,17 @@ public class Criptomoneda {
     private String name;
     private String abbr;
     private String crypturl;
-    private double price;
-    private double volume24hrs;
-    private double marketcap;
-    private double circulatingsupply;
-    private double maxsupply;
-    private double totalsupply;
+    private String price;
+    private String volume24hrs;
+    private String marketcap;
+    private String circulatingsupply;
+    private String maxsupply;
+    private String totalsupply;
     private String date_taken;
 
     public Criptomoneda() {}
 
-    public Criptomoneda(String name, String abbr, String crypturl, double price, double volume24hrs, double marketcap, double circulatingsupply, double maxsupply, double totalsupply, String date_taken) {
+    public Criptomoneda(String name, String abbr, String crypturl, String price, String volume24hrs, String marketcap, String circulatingsupply, String maxsupply, String totalsupply, String date_taken) {
         this.name = name;
         this.abbr = abbr;
         this.crypturl = crypturl;
@@ -51,51 +51,51 @@ public class Criptomoneda {
         this.crypturl = crypturl;
     }
     @JsonProperty("price")
-    public double getPrice() {
+    public String getPrice() {
         return price;
     }
     @JsonProperty("price")
-    public void setPrice(double price) {
+    public void setPrice(String price) {
         this.price = price;
     }
     @JsonProperty("volume24hrs")
-    public double getVolume24hrs() {
+    public String getVolume24hrs() {
         return volume24hrs;
     }
     @JsonProperty("volume24hrs")
-    public void setVolume24hrs(double volume24hrs) {
+    public void setVolume24hrs(String volume24hrs) {
         this.volume24hrs = volume24hrs;
     }
     @JsonProperty("marketcap")
-    public double getMarketcap() {
+    public String getMarketcap() {
         return marketcap;
     }
     @JsonProperty("marketcap")
-    public void setMarketcap(double marketcap) {
+    public void setMarketcap(String marketcap) {
         this.marketcap = marketcap;
     }
     @JsonProperty("circulatingsupply")
-    public double getCirculatingsupply() {
+    public String getCirculatingsupply() {
         return circulatingsupply;
     }
     @JsonProperty("circulatingsupply")
-    public void setCirculatingsupply(double circulatingsupply) {
+    public void setCirculatingsupply(String circulatingsupply) {
         this.circulatingsupply = circulatingsupply;
     }
     @JsonProperty("maxsupply")
-    public double getMaxsupply() {
+    public String getMaxsupply() {
         return maxsupply;
     }
     @JsonProperty("maxsupply")
-    public void setMaxsupply(double maxsupply) {
+    public void setMaxsupply(String maxsupply) {
         this.maxsupply = maxsupply;
     }
     @JsonProperty("totalsupply")
-    public double getTotalsupply() {
+    public String getTotalsupply() {
         return totalsupply;
     }
     @JsonProperty("totalsupply")
-    public void setTotalsupply(double totalsupply) {
+    public void setTotalsupply(String totalsupply) {
         this.totalsupply = totalsupply;
     }
     @JsonProperty("date_taken")
