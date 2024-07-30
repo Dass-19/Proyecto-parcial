@@ -109,17 +109,17 @@ public class Cripto {
 
     @Override
     public String toString() {
-        return "Criptomoneda{" +
+        return "Cripto{" +
                 "nombre='" + nombre + '\'' +
-                ", abbr='" + simbolo + '\'' +
-                ", crypturl='" + url + '\'' +
-                ", price=" + precio +
-                ", volume24hrs=" + volTrans24hrs +
-                ", marketcap=" + capitalizacion +
-                ", circulatingsupply=" + cantCriptoCirculando +
-                ", maxsupply=" + cantMax +
-                ", totalsupply=" + cantTotal +
-                ", date_taken='" + fecha + '\'' +
+                ", simbolo='" + simbolo + '\'' +
+                ", url='" + url + '\'' +
+                ", precio=" + precio +
+                ", volTrans24hrs=" + volTrans24hrs +
+                ", capitalizacion=" + capitalizacion +
+                ", cantCriptoCirculando=" + cantCriptoCirculando +
+                ", cantMax =" + cantMax +
+                ", cantTotal=" + cantTotal +
+                ", fecha='" + fecha + '\'' +
                 '}';
     }
 }
