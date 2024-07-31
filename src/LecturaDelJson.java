@@ -15,8 +15,10 @@ public class LecturaDelJson {
         try {
             List<Cripto> crips = mapper.readValue(archJson, new TypeReference<List<Cripto>>(){});
             for (Cripto cripto : crips) {
-                System.out.println(cripto);
+
             }
+            System.out.println("El total de criptomonedas existentes es: ");
+            System.out.println(crips.size());
         } catch (IOException e) {
             e.printStackTrace();
         }
