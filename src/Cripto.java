@@ -1,4 +1,7 @@
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
+// Se ignoran los campos sin nombre
+@JsonIgnoreProperties(ignoreUnknown = true)
 
 public class Cripto {
     private String nombre;
