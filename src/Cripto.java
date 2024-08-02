@@ -1,5 +1,17 @@
+/**
+ * Clase llamada Cripto, contiene los atributos,
+ * constructores, accesores y toString del archivo json
+ * que se nos dió para el programa, los cuales serán usados
+ * para los reportes.
+ *
+ * @author Daniel Alfonso Suárez Solis
+ * @author Ricardo Jared Cedeño Villota
+ * @version POO - 2024-2025 C1
+ * @since Desde 31-jul-2024, 16:00 horas
+ */
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
+
 // Se ignoran los campos sin nombre
 @JsonIgnoreProperties(ignoreUnknown = true)
 
